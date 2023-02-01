@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Dynamic calendar</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js" defer></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <p class="current-date"></p>
+
+                <div class="icons">
+                    <div id="prev" class="material-icons">chevron_left</div>
+                    <div id="next" class="material-icons">chevron_right</div>
+                </div>
+            </header>
+            <div class="calendar">
+                <ul class="weeks"></ul>
+                <ul class="days"></ul>
+
+                <div class="lang">
+                    <div class="lblLang">Eng</div>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span id="toggle" class="slider round"></span>
+                    </label>
+                    <div class="lblLang">Rus</div>
+                </div>
+            </div>
+        </div>
+        
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>

@@ -2,7 +2,8 @@ let counter = 0;
 const toggle = document.querySelector("#toggle");
 toggle.addEventListener("click", () => {
     counter++;
-})
+    console.log(counter);
+});
 
 setInterval ( ()=> {
     const time = document.querySelector("#time");
